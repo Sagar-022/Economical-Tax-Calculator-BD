@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "327480461547",
+    "firebase_url": "https://economicaltaxcalculator.firebaseio.com",
+    "project_id": "economicaltaxcalculator",
+    "storage_bucket": "economicaltaxcalculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327480461547:android:7bbbab6ee4f7bde0",
+        "android_client_info": {
+          "package_name": "com.sm.economicaltaxcalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327480461547-sifnn3ahj51hi1onigievins9fdjjrel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQUHdvGM87lD7X4nostYJJ0aaSxyyGJ6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

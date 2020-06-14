@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/shutterstock_fear1ess_tax"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_pdf"
+        android:background="@drawable/my_button_border"
+        android:onClick="onClickCalculateTax"
+        />
+    <Button
+        android:id="@+id/cl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ct"
+        android:layout_alignStart="@+id/ct"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_border"
+        android:onClick="onClickRules"
+        android:text="@string/rules" />
+
+    <Button
+        android:id="@+id/ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cl"
+        android:layout_alignStart="@+id/cl"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/my_button_border"
+        android:onClick="onClickFill"
+        android:text="@string/cal_tax" />
+
+    <Button
+        android:id="@+id/at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ff"
+        android:layout_alignStart="@+id/ff"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_border"
+        android:onClick="onClickAboutTax"
+        android:text="@string/about_tax" />
+    <Button
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/at"
+        android:layout_alignStart="@+id/at"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_button_border"
+        android:onClick="onClickUpload"
+        android:text="Upload" />
+
+<!--
+    <Button
+        android:id="@+id/au"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/at"
+        android:layout_below="@+id/at"
+        android:text="@string/about_us"
+        android:background="@drawable/my_button_border"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickAboutUs"
+        />
+-->
+
+</RelativeLayout>
